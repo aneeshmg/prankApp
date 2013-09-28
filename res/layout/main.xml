@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:isScrollContainer="true"
+  >
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+      android:id="@+id/introTextXML"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Solve the challenge!"
+      android:textColor="#ffffff"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp" />
+    <ImageView
+      android:id="@+id/bg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/mainbg"
+      android:layout_gravity="center" />
+
+    <EditText
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:hint="Type here"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp" />
+
+    <Button
+      android:id="@+id/buttonXML"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Enter"
+      android:textSize="25dp"
+      android:layout_gravity="center"/>
+
+  </LinearLayout>
+
+</ScrollView>
